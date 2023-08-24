@@ -1,7 +1,6 @@
 body{
     font-family: 'Sono', sans-serif;
 }
-
 .pricing-container{
     display: flex;
     align-items: center;
@@ -44,7 +43,7 @@ body{
     padding: 10px;
 }
 
-@media (min-width: 680px){
+@media (max-width: 1250px){
     .pricing-container{
         flex-direction: column;
         height: 100%;
